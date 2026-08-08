@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DJ Wireframe</title>
-        <link rel="stylesheet" href="./main.css" />
+        <link rel="stylesheet" href="./index.css" />
 </head>
 <body>
     <section>
@@ -24,33 +24,33 @@
                 <span class="yellow"></span>
                 <span class="green"></span>
             </div>
-          </div>
+      </div>
         <div class="card_body">
-<span class="const">const</span> project = {
+<span class="const">project</span> = {
 <br>
-<span class="align">name: <span class="name">'DJ Wireframe'</span>,</span>
+<span class="align">"name": <span class="name">'DJ Wireframe'</span>,</span>
 <br>
-<span class="align">technologies: [<span class="name">'HTML', 'CSS'</span>],</span>
+<span class="align">"technologies": [<span class="name">'HTML', 'CSS'</span>],</span>
 <br>
-<span class="align">responsive: <span class="const">true</span>,</span>
+<span class="align">"responsive": <span class="const">True</span>,</span>
 <br>
-<span class="align">frontendOnly: <span class="const">true</span>,</span>
+<span class="align">"frontendOnly": <span class="const">True</span>,</span>
 <br>
-<span class="align">features: [</span><br>
+<span class="align">"features": [</span><br>
 <span class="align"><span class="name">'Landing Page',</span></span><br>
 <span class="align"><span class="name">'Modern Layout',</span></span><br>
 <span class="align"><span class="name">'Responsive Design',</span></span><br>
 <span class="align"><span class="name">'Smooth UI',</span></span><br>
 <span class="align"><span class="name">'Clean Structure'</span></span><br>
 <span class="align">],</span><br>
-<span class="align">completed: <span class="const">true</span>,</span><br>
-<span class="align">isResponsive: function () {</span><br>
-<span class="align">&nbsp;&nbsp;return (</span><br>
-<span class="align">&nbsp;&nbsp;&nbsp;&nbsp;<span class="this">this</span>.responsive <span class="name">&&</span></span><br>
-<span class="align">&nbsp;&nbsp;&nbsp;&nbsp;<span class="this">this</span>.technologies.length == <span class="name">2</span></span><br>
-<span class="align">&nbsp;&nbsp;);</span><br>
-<span class="align">},</span><br>
+<span class="align">"completed": <span class="const">True</span>,</span><br>
 };
+<br>
+<span class="const">def</span> is_responsive<span class="name">(project)</span>:<br>
+<span class="align">&nbsp;&nbsp;<span class="const">return</span> (</span><br>
+<span class="align">&nbsp;&nbsp;&nbsp;&nbsp;project<span class="name">["responsive"]</span> <span class="name">and</span></span><br>
+<span class="align">&nbsp;&nbsp;&nbsp;&nbsp;<span class="this">len</span>(project<span class="name">["technologies"]</span>) == <span class="name">2</span></span><br>
+<span class="align">&nbsp;&nbsp;)</span><br>
 </div>
 </div>
 </section>
